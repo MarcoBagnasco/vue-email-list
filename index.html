@@ -14,6 +14,14 @@
 </head>
 <body>
     
+    <div id="root">
+        <h1>Email List</h1>
+        <ul v-if="email.length === numEmail">
+            <li v-for="item in email">{{item}}</li>
+        </ul>
+        <div v-else class="loading">Loading...</div>
+    </div>
+    
     <!-- JS -->
     <!-- Axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

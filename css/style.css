@@ -1,0 +1,22 @@
+/************************* GENERAL ************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 80px;
+    font-size: 24px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+li{
+    margin-bottom: 5px;
+    list-style: none;
+}
+.loading{
+    margin-top: 150px;
+}
